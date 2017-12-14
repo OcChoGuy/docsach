@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+   <style name="edittext_style">
+       <item name= "android:layout_gravity">center</item>
+        <item name = "android:background">@drawable/edittext_style</item>
+        <item name= "android:layout_width">match_parent</item>
+       <item name="android:textAlignment">center</item>
+       <item name="android:layout_height">40dp</item>
+       <item name ="android:ems">10</item>
+   </style>
+    <style name="buttonLogin_style">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="edittextview_style">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

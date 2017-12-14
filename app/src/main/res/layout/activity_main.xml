@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.bob.login.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/water" />
+
+        <EditText
+            android:id="@+id/ID"
+            style="@style/edittext_style"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/Pass"
+            style="@style/edittext_style"
+            android:layout_margin="15dp"
+            />
+
+        <Button
+            style="@style/buttonLogin_style"
+            android:layout_margin="15dp"
+
+            android:text="log in" />
+    </LinearLayout>
+
+
+</RelativeLayout>
